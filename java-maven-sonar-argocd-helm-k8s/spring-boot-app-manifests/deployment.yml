@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: advika1010/ultimate-cicd:6
+        image: advika1010/ultimate-cicd:ReplaceImageTag
         ports:
         - containerPort: 8080
