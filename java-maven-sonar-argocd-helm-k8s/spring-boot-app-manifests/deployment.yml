@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+eapiVersion: apps/v1
 kind: Deployment
 metadata:
   name: spring-boot-app
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: advika1010/ultimate-cicd:9
+        image: advika1010/ultimate-cicd: ReplaceImagetag
         ports:
         - containerPort: 8080
